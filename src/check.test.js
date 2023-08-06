@@ -1,11 +1,3 @@
-# check.test.js
-
----
-
-<pre>
-
- * Main function 
-
 import highlightHTMLContent from "./Htmlcontent";
 
 it("should highlight one position in HTML content", () => {
@@ -33,58 +25,3 @@ it("should highlight one position in HTML content", () => {
 
   expect(result).toEqual(expected);
 });
-
-
-</pre>
-
-![photo](https://64cf5c9d29c95431a1fdbd60--soft-kleicha-cd8224.netlify.app/jest%20result.png)
-
-# jest result
-
----
-
-- npm test
-
-PASS src/check.test.js
-√ should highlight one position in HTML content (3 ms)
-
-Test Suites: 1 passed, 1 total
-Tests: 1 passed, 1 total
-Snapshots: 0 total
-Time: 2.095 s, estimated 3 s
-Ran all test suites related to changed files.
-
-Watch Usage
-› Press a to run all tests.
-› Press f to run only failed tests.
-› Press q to quit watch mode.
-› Press p to filter by a filename regex pattern.
-› Press t to filter by a test name regex pattern.
-› Press Enter to trigger a test run.
-
-# UI
-
----
-
-- component/HighlightHTMLContent.jsx
-
-  <pre>
-  
-  
-  import HighlightHTMLContent from "./component/HighlightHTMLContent";
-
-function App() {
-return (
-
-<div>
-<h1>Highlight HTML Content</h1>
-<HighlightHTMLContent />
-</div>
-);
-}
-
-export default App;
-
-</pre>
-
-![photo](https://64cf5c9d29c95431a1fdbd60--soft-kleicha-cd8224.netlify.app/ui.png)
